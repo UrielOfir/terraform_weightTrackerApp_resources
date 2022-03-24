@@ -1,6 +1,6 @@
 variable "webAppPrefix" {
   description = "The prefix which should be used for all resources connected to the web app."
-  default     = "WA"
+  default     = "webApp"
 }
 
 variable "DBPrefix" {
