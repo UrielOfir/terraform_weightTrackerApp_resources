@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "webApp" {
 }
 
 locals {
-  instance_count = 2
+  instance_count = var.machinesAmmount
 }
 
 resource "azurerm_network_interface" "webApp" {

@@ -17,3 +17,8 @@ variable "appPort" {
   description = "The port on which the web app should be listening."
   default     = 8080
 }
+
+variable "machinesAmmount" {
+  description = "The number of machines to be created."
+  default     = 2
+}
