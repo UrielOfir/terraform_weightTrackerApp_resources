@@ -1,7 +1,9 @@
-# resource "azurerm_resource_group" "DB" {
-#   name     = "${var.DBPrefix}-resources"
-#   location = var.location
-# }
+
+
+resource "azurerm_resource_group" "DB" {
+  name     = "module-resources"
+  location = var.location
+}
 
 # resource "azurerm_network_interface" "DB" {
 #   name                = "nicDB"
