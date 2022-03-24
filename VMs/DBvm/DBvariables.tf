@@ -13,6 +13,3 @@ variable "DB-VMUserName"{
 
 variable "DB-VMPassword"{
 }
-
-
-
