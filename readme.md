@@ -19,3 +19,7 @@ variable "DB-VMPassword" { default = "<password" }
 (The bash scripts are not ready yet to run automaticlly, so copy-paste the commands to the machine CLI and change the .env file as you need for the machine IP address, the Public IP, password, etc.)
 
 # Terraform backend on azure storage
+To upload the terraform state to azure storage, you need to cancel the comment inside the "backetStateConfiguration.tf" file.
+And change the storage attributes names to your own.
+
+You need to run `terraform init` again, to apply the backend configuration.
