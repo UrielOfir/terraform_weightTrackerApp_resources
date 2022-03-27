@@ -27,8 +27,6 @@ No requirements.
 | [azurerm_network_interface_backend_address_pool_association.LB](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_interface_backend_address_pool_association) | resource |
 | [azurerm_network_security_group.DBNsg](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_group) | resource |
 | [azurerm_network_security_group.webApp](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/network_security_group) | resource |
-| [azurerm_postgresql_flexible_server.example](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/postgresql_flexible_server) | resource |
-| [azurerm_private_dns_zone.postgres](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/private_dns_zone) | resource |
 | [azurerm_public_ip.LB-PIp](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/public_ip) | resource |
 | [azurerm_resource_group.vnet](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group) | resource |
 | [azurerm_subnet.DB](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/subnet) | resource |
@@ -55,5 +53,5 @@ No requirements.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_passwords"></a> [passwords](#output\_passwords) | n/a |
+| <a name="output_passwords"></a> [passwords](#output\_passwords) | The passwords to connect the virtual machines |
 <!-- END_TF_DOCS -->
