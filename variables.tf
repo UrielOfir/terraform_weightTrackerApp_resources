@@ -20,5 +20,5 @@ variable "appPort" {
 
 variable "machinesAmmount" {
   description = "The number of machines to be created."
-  default     = 2
+  default     = 3
 }
