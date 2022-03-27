@@ -6,7 +6,7 @@
 
 ## Steps to run the project:
 1. Conncte your Azure CLI to your Azure accont-`az login`.
-2. Add `secretVars.tfvars` file with this content of variabls (the users names and passwords for you virtual machines.):
+2. Add `secretVars.tfvar` file with this content of variabls (the users names and passwords for you virtual machines.):
 ```
 variable "webAppVMUserName" { default = "<userName>" }
 variable "webAppVMPassword" { default = "<password>" }
