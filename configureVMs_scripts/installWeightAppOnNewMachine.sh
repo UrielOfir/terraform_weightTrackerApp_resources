@@ -14,10 +14,10 @@ npm i;
 echo "
 # Host configuration
 PORT=8080
-HOST=10.0.2.5
+HOST=<youarMachineIP>
 
 # Postgres configuration
-PGHOST=10.0.4.4
+PGHOST=<yourDBip>
 PGUSERNAME=postgres
 PGDATABASE=postgres
 PGPASSWORD=<postgres password>
@@ -36,3 +36,7 @@ OKTA_CLIENT_SECRET=<oktaClientSecret>
 npm install pm2 -g;
 
 pm2 startup;
+
+pm2 start src/index.js
+
+pm2 save
