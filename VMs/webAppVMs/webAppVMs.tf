@@ -56,7 +56,3 @@ resource "azurerm_linux_virtual_machine" "webApp" {
     caching              = "ReadWrite"
   }
 }
-
-output "interface" {
-  value = azurerm_network_interface.webApp
-}

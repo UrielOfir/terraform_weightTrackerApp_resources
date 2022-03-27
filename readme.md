@@ -6,7 +6,7 @@
 
 ## Steps to run the project:
 1. Conncte your Azure CLI to your Azure accont-`az login`.
-2. Add `secretVars.tf` file with this content of variabls (the users names and passwords for you virtual machines.):
+2. Add `secretVars.tfvars` file with this content of variabls (the users names and passwords for you virtual machines.):
 ```
 variable "webAppVMUserName" { default = "<userName>" }
 variable "webAppVMPassword" { default = "<password>" }
@@ -23,3 +23,7 @@ To upload the terraform state to azure storage, you need to cancel the comment i
 And change the storage attributes names to your own.
 
 You need to run `terraform init` again, to apply the backend configuration.
+
+# More details
+You can read more details about this terraform module in the automated documentation:
+[Terraform-docs](./terraform-docs.md)
